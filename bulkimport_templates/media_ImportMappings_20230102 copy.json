@@ -1,0 +1,54 @@
+{
+    "filename": "EastSt_Media.csv",
+    "filesize": "5125",
+    "filepath": "/tmp/omekaY7w9p4",
+    "media_type": "text/csv",
+    "resource_type": "media",
+    "comment": "",
+    "automap_check_names_alone": true,
+    "column-property": [
+        {
+            "dcterms:identifier": 10
+        },
+        {
+            "dcterms:title": 1
+        },
+        {
+            "dcterms:type": 8
+        }
+    ],
+    "column-data-type": [
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal"
+    ],
+    "column-item": {
+        "3": "dcterms:identifier"
+    },
+    "column-media_source": {
+        "4": "sideload"
+    },
+    "generic-data": "default",
+    "media-source": "default",
+    "o:resource_template": "",
+    "o:resource_class": "",
+    "o:owner": {
+        "o:id": 3
+    },
+    "o:is_public": 1,
+    "multivalue_separator": "|",
+    "global_language": "",
+    "identifier_properties": [
+        "dcterms:identifier"
+    ],
+    "action": "create",
+    "identifier_column": 0,
+    "action_unidentified": "skip",
+    "rows_by_batch": 20,
+    "column-multivalue": [],
+    "delimiter": ",",
+    "enclosure": "\"",
+    "escape": "\\"
+}

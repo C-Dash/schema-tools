@@ -1,0 +1,148 @@
+{
+    "filename": "EastSt_Places.csv",
+    "filesize": "2209",
+    "filepath": "/tmp/omekaFetjaq",
+    "media_type": "text/csv",
+    "resource_type": "items",
+    "comment": "",
+    "automap_check_names_alone": true,
+    "column-resource_template": [
+        "1"
+    ],
+    "column-data-type": [
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal"
+    ],
+    "column-resource_class": {
+        "1": "1"
+    },
+    "column-property": {
+        "2": {
+            "curation:collection": 293
+        },
+        "3": {
+            "dcterms:identifier": 10
+        },
+        "4": {
+            "dcterms:title": 1
+        },
+        "5": {
+            "dcterms:alternative": 17
+        },
+        "6": {
+            "cdash:placeType": 527
+        },
+        "7": {
+            "dcterms:description": 4
+        },
+        "8": {
+            "dcterms:creator": 2
+        },
+        "9": {
+            "dcterms:spatial": 40
+        },
+        "10": {
+            "dcterms:subject": 3
+        },
+        "11": {
+            "cdash:mapLot": 530
+        },
+        "12": {
+            "cdash:streetAddress": 538
+        },
+        "13": {
+            "cdash:bldgStyle": 543
+        },
+        "14": {
+            "cdash:bldgMaterial": 529
+        },
+        "15": {
+            "cdash:appearDate": 533
+        },
+        "16": {
+            "cdash:changeDate": 534
+        },
+        "17": {
+            "cdash:disappearDate": 536
+        },
+        "18": {
+            "cdash:distDes": 531
+        },
+        "19": {
+            "cdash:macrisID": 532
+        },
+        "20": {
+            "cdash:gisBldg": 544
+        },
+        "23": {
+            "cdash:streetName": 539
+        },
+        "24": {
+            "cdash:houseNum": 540
+        },
+        "25": {
+            "cdash:streetSort": 541
+        },
+        "26": {
+            "dcterms:isPartOf": 33
+        }
+    },
+    "column-item_set": {
+        "2": "dcterms:title"
+    },
+    "column-map-lat": {
+        "21": "1"
+    },
+    "column-map-lng": {
+        "22": "1"
+    },
+    "generic-data": "default",
+    "media-source": "default",
+    "mapping-module": "default",
+    "default-view": "default",
+    "o:resource_template": "",
+    "o:resource_class": "",
+    "o:owner": {
+        "o:id": 3
+    },
+    "o:is_public": 1,
+    "multivalue_separator": "|",
+    "global_language": "",
+    "identifier_properties": [
+        "dcterms:identifier"
+    ],
+    "action": "create",
+    "identifier_column": 0,
+    "action_unidentified": "skip",
+    "rows_by_batch": 20,
+    "column-multivalue": [],
+    "delimiter": ",",
+    "enclosure": "\"",
+    "escape": "\\"
+}
+

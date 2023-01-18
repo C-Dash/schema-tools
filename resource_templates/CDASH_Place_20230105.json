@@ -1,0 +1,441 @@
+{
+    "o:label": "CDASH Place",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "CDASH Item Identifier",
+            "o:alternate_comment": "Unique identifier for this item.  For an Address use the Address with spaces filled in by underscores.  For a buildng use the assessor's Maqp-Lot-Building ID. ",
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "identifier",
+            "label": "Identifier"
+        },
+        {
+            "o:alternate_label": "Place Name",
+            "o:alternate_comment": "The name of the building.  If unknown, use the street address.  ",
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "Alternative Name",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "alternative",
+            "label": "Alternative Title"
+        },
+        {
+            "o:alternate_label": "CDASH Folder",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "isPartOf",
+            "label": "Is Part Of"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "customvocab:2",
+                    "label": "CDASH Place Type"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "placeType",
+            "label": "Place Type"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "placeUse",
+            "label": "Place Use\/s"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "bldgStyle",
+            "label": "Building Style\/s"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "bldgMaterial",
+            "label": "Building Material"
+        },
+        {
+            "o:alternate_label": "Architect, Developer, Builder",
+            "o:alternate_comment": "Choose an architect from Getty Names, if you can, or enter one if you have to. ",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:getty:ulan",
+                    "label": "Getty: The Union List of Artist Names (ULAN)"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "creator",
+            "label": "Creator"
+        },
+        {
+            "o:alternate_label": "Subject\/s",
+            "o:alternate_comment": "Choose from Library of Congress Terms, Getty thesaurus  or consult CDASH guidelines.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:getty:aat",
+                    "label": "Getty: The Art & Architecture Thesaurus (AAT)"
+                },
+                {
+                    "name": "valuesuggest:lc:subjects",
+                    "label": "LC: Subject Headings"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "subject",
+            "label": "Subject"
+        },
+        {
+            "o:alternate_label": "Neighborhood",
+            "o:alternate_comment": "Enter the neighborhood.  Pick from CHC Neighborhoods or GeoNames if you can. ",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:geonames:geonames",
+                    "label": "Geonames: The GeoNames geographical database"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "spatial",
+            "label": "Spatial Coverage"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "appearDate",
+            "label": "Appear Date"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "changeDate",
+            "label": "Date Renovated"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "disappearDate",
+            "label": "Disappear Date"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "dataQual",
+            "label": "Data Qualifiers"
+        },
+        {
+            "o:alternate_label": "Special District \/ Designation",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "distDes",
+            "label": "District \/ Designation"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "mapLot",
+            "label": "Assessing Map-Lot"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "gisBldg",
+            "label": "GIS Building ID"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "macrisID",
+            "label": "MACRIS Inventory Number"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "streetAddress",
+            "label": "Street Address"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": true,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "houseNum",
+            "label": "House Number"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "streetName",
+            "label": "Street Name"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": true,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/github.com\/c-dash\/ns\/cdash\/",
+            "vocabulary_label": "CDASH Terms",
+            "local_name": "streetSort",
+            "label": "StreetSort Key"
+        },
+        {
+            "o:alternate_label": "Item Set",
+            "o:alternate_comment": "Choose CDASH Place or CDASH Document",
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource:itemset",
+                    "label": "Item Set"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/omeka.org\/s\/vocabs\/curation\/",
+            "vocabulary_label": "Curation",
+            "local_name": "collection",
+            "label": "Collection"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+        "vocabulary_label": "Dublin Core",
+        "local_name": "Location",
+        "label": "Location"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+        "vocabulary_label": "Dublin Core",
+        "local_name": "title",
+        "label": "Title"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+        "vocabulary_label": "Dublin Core",
+        "local_name": "description",
+        "label": "Description"
+    }
+}

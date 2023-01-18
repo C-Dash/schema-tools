@@ -1,0 +1,129 @@
+{
+    "filename": "East_St_Docs.csv",
+    "filesize": "7950",
+    "filepath": "/tmp/omekaYpOtdR",
+    "media_type": "text/csv",
+    "resource_type": "items",
+    "comment": "",
+    "automap_check_names_alone": true,
+    "column-resource_template": [
+        "1"
+    ],
+    "column-data-type": [
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "resource",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal",
+        "literal"
+    ],
+    "column-resource_class": {
+        "1": "1"
+    },
+    "column-property": {
+        "2": {
+            "curation:collection": 293
+        },
+        "3": {
+            "dcterms:identifier": 10
+        },
+        "4": {
+            "dcterms:title": 1
+        },
+        "5": {
+            "dcterms:alternative": 17
+        },
+        "6": {
+            "dcterms:type": 8
+        },
+        "7": {
+            "dcterms:description": 4
+        },
+        "8": {
+            "dcterms:subject": 3
+        },
+        "9": {
+            "dcterms:creator": 2
+        },
+        "10": {
+            "dcterms:date": 7
+        },
+        "11": {
+            "dcterms:spatial": 40
+        },
+        "12": {
+            "dcterms:bibliographicCitation": 48
+        },
+        "13": {
+            "dcterms:rights": 15
+        },
+        "14": {
+            "cdash:placeItem": 546
+        },
+        "15": {
+            "cdash:macrisID": 532
+        },
+        "16": {
+            "cdash:streetName": 539
+        },
+        "17": {
+            "cdash:houseNum": 540
+        },
+        "18": {
+            "dcterms:isPartOf": 33
+        },
+        "19": {
+            "bibo:numPages": 106
+        },
+        "20": {
+            "cdash:dataQual": 537
+        },
+        "21": {
+            "cdash:streetSort": 541
+        }
+    },
+    "column-item_set": {
+        "2": "dcterms:title"
+    },
+    "column-multivalue": {
+        "8": "1"
+    },
+    "generic-data": "default",
+    "media-source": "default",
+    "mapping-module": "default",
+    "default-view": "default",
+    "o:resource_template": "",
+    "o:resource_class": "",
+    "o:owner": {
+        "o:id": 3
+    },
+    "o:is_public": 1,
+    "multivalue_separator": "|",
+    "global_language": "",
+    "identifier_properties": [
+        "dcterms:identifier"
+    ],
+    "action": "create",
+    "identifier_column": 0,
+    "action_unidentified": "skip",
+    "rows_by_batch": 20,
+    "delimiter": ",",
+    "enclosure": "\"",
+    "escape": "\\"
+}
